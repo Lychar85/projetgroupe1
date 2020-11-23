@@ -8,23 +8,28 @@ strong{
     text-transform: uppercase;
 }
 
-/**PAGE MARQUES
+/**NAVIGATION
 ========================================================*/
-.topnav{
+.navbar{
+    transition: 700ms;
+}
+.navscroll{
+    transition: 700ms;
+    font-size: 130%;
+    background-color: rgb(80, 39, 0);
+}
+.navbar li a{
     
-    transition: 800ms;
-
-  }
-
-.topnav li a{
     color: blanchedalmond;
+    margin-left: 40px;
+    transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
 }
 
-  .navscroll{
-      transition: 1000ms;
-      font-size: 130%;
-      background-color: rgb(80, 39, 0);
-  }
+.dropdown-menu{
+    background: none;
+}
+
+  
 
 /**PAGE MARQUES
 ========================================================*/

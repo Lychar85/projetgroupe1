@@ -1,10 +1,10 @@
 $(document).ready(function() {
     $(window).scroll(function() {
-      if($(this).scrollTop() < $(".topnav").height()){
-         $(".topnav").removeClass("navscroll");
+      if($(this).scrollTop() < $(".navbar").height()){
+         $(".navbar").removeClass("navscroll");
       }
       else{
-         $(".topnav").addClass("navscroll");
+         $(".navbar").addClass("navscroll");
       }
     });
   });
