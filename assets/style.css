@@ -8,11 +8,25 @@ strong{
     text-transform: uppercase;
 }
 
+/**PAGE MARQUES
+========================================================*/
+.topnav{
+    transition: 800ms;
+    overflow: hidden;
+  }
+
+  .navscroll{
+      transition: 1000ms;
+      font-size: 130%;
+      background-color: rgb(80, 39, 0);
+  }
 
 /**PAGE MARQUES
 ========================================================*/
 #titre-marque{
+    margin: 150px 0px 100px 0px;
     text-transform: uppercase;
+    text-align: center;
 }
 .titre-new{
     text-align: center;
@@ -61,6 +75,7 @@ h4{
 }
 
 .history{
+    position: relative;
     padding: 10px;
     background: rgb(80, 39, 0);
     color: rgb(255, 255, 255);
@@ -80,6 +95,10 @@ h4{
 
 .text-2{
     margin-left: 300px;
+}
+
+img{
+    position: relative;
 }
 
 .img-left{
@@ -118,3 +137,4 @@ h4{
             margin: 0;
         }
 }
+
