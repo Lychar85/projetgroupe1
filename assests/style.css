@@ -1,0 +1,71 @@
+body{
+    background: black;
+    color: white;
+    font-size: 17px;
+}
+
+strong{
+    text-transform: uppercase;
+}
+
+
+/**PAGE DIESEL
+========================================================*/
+#titre-marque{
+    text-transform: uppercase;
+}
+.titre-new{
+    text-align: center;
+}
+
+h2{
+    font-size: 400%;
+}
+
+h4{
+    font-size: 150%;
+    margin-bottom: 50px;
+}
+
+.new{
+    border-bottom: 1px solid white;
+}
+
+.new h2{
+    margin-top: 200px;
+}
+
+.btn-diesel{
+    border: none;
+    border-radius: 10px;
+    background: rgb(0, 11, 110);
+    color: white;
+}
+
+.history{
+    height: 500px;
+    background: white;
+    color: black;
+}
+
+.txt{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.text-1{
+    font-size: 100%;
+}
+
+.text-2{
+    margin-left: 300px;
+}
+
+.img-left{
+    float: left;
+}
+
+.img-right{
+    float: right;
+}
