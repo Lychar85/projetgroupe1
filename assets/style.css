@@ -1,6 +1,6 @@
 body{
     background: black;
-    color: white;
+    color: blanchedalmond;
     font-size: 17px;
 }
 
@@ -9,7 +9,7 @@ strong{
 }
 
 
-/**PAGE DIESEL
+/**PAGE MARQUES
 ========================================================*/
 #titre-marque{
     text-transform: uppercase;
@@ -32,32 +32,38 @@ h4{
 }
 
 .new h2{
-    margin-top: 200px;
+    margin-top: 120px;
 }
 
-.btn-diesel{
+.btn-new{
     transition: 500ms;
     transform: scale(1);
-    border: none;
-    border-radius: 10px;
-    background: rgb(0, 11, 110);
-    color: white;
+    border: 4px solid rgb(80, 39, 0);
+    border-radius: 20px;
+    padding: 10px;
+    color: blanchedalmond;
     font-size: 130%;
-    padding: 5px;
 }
 
-.btn-diesel:hover{
+.btn-new:hover{
     transition: 500ms;
-    color: white;
     text-decoration: none;
     opacity: 70%;
+    color: blanchedalmond;
+    background-color: rgb(80, 39, 0);
 
+}
+
+.btn-diesel,.btn-patek,.btn-rolex.btn-rm{
+    margin-top: 200px;
+    color: rgb(80, 39, 0);
+    font-size: 110%;
 }
 
 .history{
     padding: 10px;
-    background: white;
-    color: black;
+    background: rgb(80, 39, 0);
+    color: rgb(255, 255, 255);
     font-size: 115%;
 }
 
@@ -65,6 +71,7 @@ h4{
     display: flex;
     align-items: center;
     text-align: center;
+    height: 1100px;
 }
 
 .text-1,.text-2{
@@ -99,6 +106,7 @@ h4{
         .txt{
             display: block;
             margin: 75px 0px 50px 0px;
+            height: auto;
         }
 
         img{
