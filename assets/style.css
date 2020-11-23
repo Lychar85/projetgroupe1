@@ -11,9 +11,14 @@ strong{
 /**PAGE MARQUES
 ========================================================*/
 .topnav{
+    
     transition: 800ms;
     overflow: hidden;
   }
+
+.topnav li a{
+    color: blanchedalmond;
+}
 
   .navscroll{
       transition: 1000ms;
@@ -33,7 +38,7 @@ strong{
 }
 
 h2{
-    font-size: 400%;
+    font-size: 300%;
 }
 
 h4{
