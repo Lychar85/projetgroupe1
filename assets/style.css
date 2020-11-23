@@ -37,16 +37,20 @@ h4{
 
 .btn-diesel{
     transition: 500ms;
+    transform: scale(1);
     border: none;
     border-radius: 10px;
     background: rgb(0, 11, 110);
     color: white;
     font-size: 130%;
+    padding: 5px;
 }
 
 .btn-diesel:hover{
     transition: 500ms;
-    transform: scale(1..5);
+    color: white;
+    text-decoration: none;
+    opacity: 70%;
 
 }
 
@@ -54,6 +58,7 @@ h4{
     padding: 10px;
     background: white;
     color: black;
+    font-size: 115%;
 }
 
 .txt{
@@ -62,7 +67,7 @@ h4{
     text-align: center;
 }
 
-.text-1{
+.text-1,.text-2{
     font-size: 120%;
 }
 
@@ -76,4 +81,32 @@ h4{
 
 .img-right{
     float: right;
+}
+
+/*RESPONSIVE
+=================================================*/
+@media screen and (max-width: 1280px) {
+    .text-2{
+        margin: 0px;
+    }
+
+    .history{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+        .txt{
+            display: block;
+            margin: 75px 0px 50px 0px;
+        }
+
+        img{
+            width: 100%;
+            height: auto;
+        }
+
+        .text-2{
+            margin: 0;
+        }
 }
