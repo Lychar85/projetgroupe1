@@ -36,14 +36,22 @@ h4{
 }
 
 .btn-diesel{
+    transition: 500ms;
     border: none;
     border-radius: 10px;
     background: rgb(0, 11, 110);
     color: white;
+    font-size: 130%;
+}
+
+.btn-diesel:hover{
+    transition: 500ms;
+    transform: scale(1..5);
+
 }
 
 .history{
-    height: 500px;
+    padding: 10px;
     background: white;
     color: black;
 }
@@ -55,7 +63,7 @@ h4{
 }
 
 .text-1{
-    font-size: 100%;
+    font-size: 120%;
 }
 
 .text-2{
