@@ -109,9 +109,6 @@ h4{
     margin-left: 300px;
 }
 
-img{
-    position: relative;
-}
 
 .img-left{
     float: left;
@@ -121,11 +118,57 @@ img{
     float: right;
 }
 
+/*PAGE COLLECTION
+=================================================*/
+.collection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(../assets/img/header-collection1.jpg) fixed no-repeat;
+    height: 800px;
+    color: blanchedalmond;
+    
+}
+
+.collection h1{
+    text-transform: uppercase;
+    margin-top: 200px;
+    font-size: 500%;
+
+}
+
+.collection h3{
+    font-size: 200%;
+}
+
+.btn-ajout-panier{
+    background: none;
+    color: blanchedalmond;
+    border: none;
+    border-top: 1px solid blanchedalmond;
+    
+}
+
+.btn-ajout-panier:hover{
+    transition: 300ms;
+    transform: translateY(3px);
+}
+
+.card{
+    background: none;
+    border-top: 3px double blanchedalmond;
+    margin-bottom: 50px;
+    min-height: 500px;
+    max-height: 500px;
+    font-size: 90%;
+}
+
 /*FOOTER
 =================================================*/
 footer{
     background: rgb(29, 29, 29);
     color: white;
+    
 }
 
 footer h5{
@@ -155,6 +198,16 @@ footer ul a:hover{
     text-decoration: none;
     
 }
+
+
+
+
+
+
+
+
+
+
 
 /*RESPONSIVE
 =================================================*/
