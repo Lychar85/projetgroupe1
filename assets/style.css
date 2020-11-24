@@ -383,7 +383,7 @@ p {
 /* ========== CONNECTION ========== */
 .connection {
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url(../images/connexion-photo.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url(../assets/img/connexion-photo.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
