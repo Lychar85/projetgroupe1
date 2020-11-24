@@ -54,7 +54,33 @@
             <div class="input-form">
                 <input type="password" placeholder="mot de passe">
             </div>
-            <a href="#" class="forget">Mot de passe oublié?</a>
+  <!--========== Button to Open the Modal ==========-->
+            <button type="button" class="btn-primary" data-toggle="modal" data-target="#myModal">Mot de passe oublié?</button>
+<!-- The Modal -->
+  
+  <div class="modal" id="myModal">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Mot de passe oublié</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+            <input type="email" placeholder="Entrée votre adresse e-mail">
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn-danger" data-dismiss="modal">Envoyer</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
             <div class="input-form">
                 <button name="submit" type="submit" id="contact-submit">Connexion</button>
             </div>
