@@ -344,7 +344,7 @@ p {
 /* ========== PATEK ========== */
 .patek {
     height: 100vh;
-    background-image: url(../assets/img/richard-mille-index.png);
+    background-image: url(../assets/img/patek-philippe-index.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -522,22 +522,22 @@ p {
     color: #fff;
 }
 .itemA:hover {
-    background: url(../images/photo-diesel-index.jpeg);
+    background: url(../assets/img/photo-diesel-index.jpeg);
     background-position: center;
     background-size: cover;
 }
 .itemB:hover {
-    background:  url(../images/richard-mille-index.png);
+    background:  url(../assets/img/richard-mille-index.png);
     background-position: center;
     background-size: cover;
 }
 .itemC:hover {
-    background: url(../images/rolex-index.jpeg);
+    background: url(../assets/img/rolex-index.jpeg);
     background-position: center;
     background-size: cover;
 }
 .itemD:hover {
-    background: url(../images/patek-philippe-index.jpg);
+    background: url(../assets/img/patek-philippe-index.jpg);
     background-position: center;
     background-size: cover;
 }
