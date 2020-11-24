@@ -432,3 +432,119 @@ p {
 .input-form button:hover {
     background: brown;
 }
+/* ========== INSCRIPTION ========== */
+.inscription {
+    height: 60vh;
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url(../assets/img/inscription-header.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.form-connexion {
+    font-size: 20px;
+    padding: 50px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.form-check-label a {
+    color: #000000;
+}
+.btn-contact {
+    padding: 10px 50px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: none;
+    background: linear-gradient(90deg, #39e3e5, #2642e0);
+    cursor: pointer;
+    transition: .5s;
+}
+.btn-contact:hover {
+    background: #47a9d9;
+}
+.inscription-yes {
+    color: black;
+    text-align: center;
+}
+.inscription-yes a {
+    color: #000000;
+}
+/* ========== PRODUCTION ========== */
+.production {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background: #000000;
+}
+.wrap {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+.head {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    color: #fff;
+}
+.table {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+}
+.table a {
+    width: 100%;
+    display: flex;
+}
+.item {
+    border: 1px solid silver;
+    width: 49%;
+    height: 180px;
+}
+.number {
+    font-weight: lighter;
+    font-size: 22px;
+    margin: 0;
+    color: #fff;
+}
+.item-name {
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 20px 0 0 20px;
+    color: #fff;
+}
+.item-name:hover {
+    color: #fff blanchedalmond;
+}
+.itemA:hover {
+    background: url(../images/photo-diesel-index.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.itemB:hover {
+    background:  url(../images/richard-mille-index.png);
+    background-position: center;
+    background-size: cover;
+}
+.itemC:hover {
+    background: url(../images/rolex-index.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.itemD:hover {
+    background: url(../images/patek-philippe-index.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/* ========== MEDIA ========== */
+@media screen and (max-width: 800px){
+    .production {
+        display: inline-block;
+        width: 100%;
+    }
+}
