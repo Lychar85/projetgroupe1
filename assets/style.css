@@ -279,6 +279,7 @@ footer i {
         }
         .title-watchs {
             font-size: 70%;
+        }
 }
 
 
@@ -349,7 +350,7 @@ p {
     text-transform: uppercase;
 }
 .title-watchs h1 {
-    font-size: 350%;
+    font-size: 300%;
     margin-top: 50px;
 }
 
