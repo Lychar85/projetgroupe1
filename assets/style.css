@@ -24,19 +24,22 @@ strong{
     text-transform: uppercase;
 }
 
-.navbar li a:hover{
+.navbar li a:hover, .active{
     transform: translateY(5px);
     box-shadow: 0px 5px 15px white;
     
 }
 
+.black{
+    background-color: black;
+}
+
 .dropdown-menu{
-    
     background: none;
 }
 
 
-  
+
 
 /**PAGE MARQUES
 ========================================================*/
@@ -69,11 +72,12 @@ h4{
 .btn-new{
     transition: 500ms;
     transform: scale(1);
-    border: 4px solid rgb(80, 39, 0);
+    border: 2px solid rgb(80, 39, 0);
     border-radius: 20px;
     padding: 10px;
     color: blanchedalmond;
-    font-size: 130%;
+    font-size: 110%;
+    margin-top: 40px;
 }
 
 .btn-new:hover{
@@ -87,8 +91,16 @@ h4{
 
 .btn-diesel,.btn-patek,.btn-rolex.btn-rm{
     margin-top: 200px;
-    color: rgb(80, 39, 0);
+    transition: 500ms;
+    text-decoration: overline;
+    color:white;
     font-size: 110%;
+}
+
+.btn-diesel:hover,.btn-patek:hover,.btn-rolex:hover,.btn-rm:hover{
+    transform: translateY(5px);
+    color: rgb(255, 255, 255);
+    
 }
 
 .history{
@@ -297,11 +309,9 @@ p {
     display: flex;
     align-items: center;
     flex-direction: column;
+    text-transform: uppercase;
 }
-.title-watchs h1, p {
-    color: azure;
-    margin: 20px;
-}
+
 .btn {
     display: flex;
     justify-content: center;
