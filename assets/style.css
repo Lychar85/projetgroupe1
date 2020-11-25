@@ -445,6 +445,10 @@ p {
     background-size: cover;
     background-attachment: fixed;
 }
+.bg-inscription {
+    background: #fff;
+    color: #000000;
+}
 .form-connexion {
     font-size: 20px;
     padding: 50px;
