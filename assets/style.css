@@ -178,6 +178,21 @@ h4{
     font-size: 90%;
 }
 
+/*PANIER
+=================================================*/
+#panier{
+    background-color: white;
+}
+
+.table-panier{
+    margin-top:200px;
+}
+
+.btn-suppr{
+    color: black;
+}
+
+
 /*FOOTER
 =================================================*/
 footer{
@@ -500,6 +515,7 @@ p {
     color: black;
     text-align: center;
 }
+
 .inscription-yes a {
-    color: #000000;
+    color: black;
 }
