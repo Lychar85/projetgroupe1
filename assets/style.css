@@ -255,6 +255,10 @@ footer i {
         .text-2{
             margin: 0;
         }
+        
+        .bottom{
+            margin-bottom: 50px;
+        }
 }
 
 
