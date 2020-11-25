@@ -17,13 +17,13 @@
 
 </head>
 
-<body>
+<body id="panier">
     <header>
         <!--=============== NAVBAR ===============-->
-        <nav class="navbar navbar-expand-sm ">
+        <nav class="navbar navbar-expand-sm black ">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Accueil</a>
+                    <a class="nav-link" href="index.html">Accueil</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
@@ -41,48 +41,162 @@
                     <a class="nav-link" href="connection.html">connexion</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="panier.html">Mon panier</a>
+                    <a class="nav-link active" href="panier.html">Mon panier</a>
                 </li>
             </ul>
         </nav>
     </header>
 
 
-<!--=============== FOOTER ===============-->
-<footer>
-    <div class="container">
+    <!--Achat---------------------------------------------->
+    <div class="container table-panier">
         <div class="row">
-            <div class="col-md-4 col-xs-12 txt-footer">
-                <h5>Collections</h5>
-                <ul>
-                    <li><a href="Diesel.html">Diesel</a></li>
-                    <li><a href="Patek.html">Patek Philippe</a></li>
-                    <li><a href="RM.html">Richard Mille</a></li>
-                    <li><a href="Rolex.html">Rolex</a></li>
-                </ul>
-            </div>
+            <div class="col-md-12">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col"></th>
+                            <th scope="col">Produit</th>
+                            <th scope="col"></th>
+                            <th scope="col">Quantité</th>
+                            <th scope="col">Prix</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th><img src="assets/img/patek-card2-panier.jpg" alt="montre"
+                                    class=" vignette rounded float-left"></th>
+                            <td><b>7140R</b></td>
+                            <td></td>
+                            <td><select class="form-control" style="width:auto;" id="exampleFormControlSelect1">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </td>
+                            <td>26 800,00 €</td>
+                            <td><a href="#" class="btn-suppr">supprimer</a></td>
+                        </tr>
 
-            <div class="col-md-4 col-xs-12 txt-footer">
-                <h5>Réseaux Officiels</h5>
-                <ul>
-                    <li><i class="fab fa-facebook-square"></i>Facebook</li>
-                    <li><i class="fab fa-twitter"></i>twitter</li>
-                    <li><i class="fab fa-instagram"></i>instagram</li>
-                    <li><i class="fab fa-youtube"></i>youtube</li>
-                    <li><i class="fab fa-pinterest"></i>Pinterest</li>
-                </ul>
-            </div>
+                        <tr>
+                            <th><img src="assets/img/RM-card1-panier.jpg" alt="montre"
+                                    class=" vignette rounded float-left"></th>
+                            <td><b>RM 033</b></td>
+                            <td></td>
+                            <td><select class="form-control" style="width:auto;" id="exampleFormControlSelect1">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </td>
+                            <td>35 400,00 €</td>
+                            <td><a href="#" class="btn-suppr">supprimer</a></td>
+                        </tr>
 
-            <div class="col-md-4 col-xs-12 txt-footer">
-                <h5>Mentions légale</h5>
-                <p>Conditions d'utilisation</p>
-                <p>Politique de confidentialité</p>
-                <p>cookies</p>
-
+                        <tr>
+                            <th><img src="assets/img/rolex-card3-panier.jpg" alt="montre"
+                                    class=" vignette rounded float-left"></th>
+                            <td><b> PEARLMASTER 39</b></td>
+                            <td></td>
+                            <td><select class="form-control" style="width:auto;" id="exampleFormControlSelect1">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </td>
+                            <td>235 000,00 €</td>
+                            <td><a href="#" class="btn-suppr">supprimer</a></td>
+                        </tr>
+                        <!--SOUS-TOTAL------------------------------------------------------------->
+                        <tr>
+                            <th></th>
+                            <td></td>
+                            <td></td>
+                            <td> Sous-total HT
+                            </td>
+                            <td>237 760,00 €</td>
+                        </tr>
+                        <!--TVA--------------------------------------------------------------------->
+                        <tr>
+                            <th></th>
+                            <td></td>
+                            <td></td>
+                            <td> TVA 20%
+                            </td>
+                            <td>59 440,00 €</td>
+                        </tr>
+                        <!--CODE PROMO---------------------------------------------------------------->
+                        <tr>
+                            <th></th>
+                            <td></td>
+                            <td> Code PROMO </td>
+                            <td> <input type="text"> <button type="button"
+                                    class="btn-primary btn-sm">Envoyer</button></td>
+                            <td></td>
+                        </tr>
+                        <!--TOTAL--------------------------------------------------------------------->
+                        <tr>
+                            <th></th>
+                            <td></td>
+                            <td></td>
+                            <td> Total
+                            </td>
+                            <td>297 200,00 €</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!----Boutons--------------------------------------------------------------------------------->
+                <div class=choix>
+                    <button type="button" class=" btn-success btn-sm">Valider</button>
+                    <button type="button" class=" btn-danger btn-sm">Annuler</button>
+                </div>
             </div>
         </div>
     </div>
-</footer>
+
+
+    <!--=============== FOOTER ===============-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-xs-12 txt-footer">
+                    <h5>Collections</h5>
+                    <ul>
+                        <li><a href="Diesel.html">Diesel</a></li>
+                        <li><a href="Patek.html">Patek Philippe</a></li>
+                        <li><a href="RM.html">Richard Mille</a></li>
+                        <li><a href="Rolex.html">Rolex</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 col-xs-12 txt-footer">
+                    <h5>Réseaux Officiels</h5>
+                    <ul>
+                        <li><i class="fab fa-facebook-square"></i>Facebook</li>
+                        <li><i class="fab fa-twitter"></i>twitter</li>
+                        <li><i class="fab fa-instagram"></i>instagram</li>
+                        <li><i class="fab fa-youtube"></i>youtube</li>
+                        <li><i class="fab fa-pinterest"></i>Pinterest</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 col-xs-12 txt-footer">
+                    <h5>Mentions légale</h5>
+                    <p>Conditions d'utilisation</p>
+                    <p>Politique de confidentialité</p>
+                    <p>cookies</p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 <!-- Bootstrap core JS-->
 <!-- jQuery library -->
@@ -95,4 +209,5 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 <script src="assets/scripts.js"></script>
+
 </html>
