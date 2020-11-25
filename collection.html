@@ -10,7 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--link-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 
   <link rel="stylesheet" href="/assets/style.css">
@@ -22,29 +22,29 @@
     <!--=============== NAVBAR ===============-->
     <nav class="navbar navbar-expand-sm ">
       <ul class="navbar-nav">
-          <li class="nav-item">
-              <a class="nav-link" href="index.html">Accueil</a>
-          </li>
-          <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                  Nos Collections
-              </a>
-              <div class="dropdown-menu">
-                  <a class="dropdown-item" href="collection.html">Nos collections</a>
-                  <a class="dropdown-item" href="Diesel.html">Diesel</a>
-                  <a class="dropdown-item" href="Patek.html">Patek Philippe</a>
-                  <a class="dropdown-item" href="RM.html">Richard Mille</a>
-                  <a class="dropdown-item" href="Rolex.html">Rolex</a>
-              </div>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="connection.html">connexion</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="panier.html">Mon panier</a>
-          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Accueil</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Nos Collections
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="collection.html">Nos collections</a>
+            <a class="dropdown-item" href="Diesel.html">Diesel</a>
+            <a class="dropdown-item" href="Patek.html">Patek Philippe</a>
+            <a class="dropdown-item" href="RM.html">Richard Mille</a>
+            <a class="dropdown-item" href="Rolex.html">Rolex</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="connection.html">connexion</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="panier.html">Mon panier</a>
+        </li>
       </ul>
-  </nav>
+    </nav>
 
     <div class="collection">
       <h1>luxury watch</h1>
@@ -69,152 +69,196 @@
       <div class="col-md-3 col-xs-12 bottom">
         <div class="card">
           <div class="card-body">
-            <a href="#"><img src="assets/img/diesel-card.jpg"></a>
-            <h5 class="card-title">DZ4537</h5>
-            <p class="card-text">Montre MS9 chronographe en acier inoxydable noir<br><br></p>
-            <p><strong>249,00 €</strong></p>
-            <button class="btn-ajout-panier">Ajouter au panier</button>
-          </div>
+
+            <!--========== Button to Open the Modal ==========-->
+            <button type="button" class="btn-modal" data-toggle="modal" data-target="#myModal">
+              <img src="assets/img/diesel-card.jpg"></button>
+
+            <!-- ==========The Modal========== -->
+            <div class="modal" id="myModal">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <!-- ==========Modal Header========== -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">DZ4537</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <!-- ==========Modal body========== -->
+                  <div class="modal-body">
+                    <div class="row">
+                      <div class="col-md-6 col-xs-12">
+                        <img src="assets/img/DZ4537-model-blanc.jpg">
+                      </div>
+                      <div class="col-md-6 col-xs-12">
+                        <h3>DZ4537</h3>
+                        <p>Montre MS9 chronographe en acier inoxydable noir</p>
+                        <p>249,00 €</p>
+                        <p>COULEUR: Noir</p>
+                        <p>TAILLE: UNI</p>
+                        <p>La montre Diesel MS9 48 mm présente un cadran noir soleillé avec index bâton noirs, un mouvement chronographe et un bracelet à trois maillons en acier inoxydable noir. </p>
+                      </div>
+
+                    </div>
+                  </div>
+                  <!-- ==========Modal footer========== -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn-danger" data-dismiss="modal">Ajouter au panier</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          <h5 class="card-title">DZ4537</h5>
+          <p class="card-text">Montre MS9 chronographe en acier inoxydable noir<br><br></p>
+          <p><strong>249,00 €</strong></p>
+          <button class="btn-ajout-panier">Ajouter au panier</button>
         </div>
       </div>
-      <div class="col-md-3 col-xs-12 bottom">
-        <div class="card">
-          <div class="card-body">
-            <a href="#"><img src="assets/img/diesel-card2.jpg"></a>
-            <h5 class="card-title">DZ1932</h5>
-            <p class="card-text">Montre MS9 en denim à trois aiguilles<br><br></p>
-            <p><strong>179,00 €</strong></p>
-            <button class="btn-ajout-panier">Ajouter au panier</button>
-          </div>
+    </div>
+    <div class="col-md-3 col-xs-12 bottom">
+      <div class="card">
+        <div class="card-body">
+          <a href="#"><img src="assets/img/diesel-card2.jpg"></a>
+          <h5 class="card-title">DZ1932</h5>
+          <p class="card-text">Montre MS9 en denim à trois aiguilles<br><br></p>
+          <p><strong>179,00 €</strong></p>
+          <button class="btn-ajout-panier">Ajouter au panier</button>
         </div>
       </div>
-      <div class="col-md-3 col-xs-12 bottom">
-        <div class="card">
-          <div class="card-body">
-            <a href="#"><img src="assets/img/rolex-card.jpg"></a>
-            <h5 class="card-title">cosmograph daytona</h5>
-            <p class="card-text">Or jaune 18 ct assortie d’un cadran couleur  noir et d’un bracelet
-              Oysterflex</p>
-            <p><strong>26 800,00 €</strong></p>
-            <div class="btn-panier">
-            <button class="btn-ajout-panier">Ajouter au panier</button>
-          </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-xs-12 bottom">
-        <div class="card">
-          <div class="card-body">
-            <a href="#"><img src="assets/img/patek-card.jpg"></a>
-            <h5 class="card-title">5327R</h5>
-            <p class="card-text">Or rose fond verre saphir et fond plein cadran laqué ivoire avec bracelet en alligator</p>
-            <p><strong>40 000,00 €</strong></p>
+    </div>
+    <div class="col-md-3 col-xs-12 bottom">
+      <div class="card">
+        <div class="card-body">
+          <a href="#"><img src="assets/img/rolex-card.jpg"></a>
+          <h5 class="card-title">cosmograph daytona</h5>
+          <p class="card-text">Or jaune 18 ct assortie d’un cadran couleur noir et d’un bracelet
+            Oysterflex</p>
+          <p><strong>26 800,00 €</strong></p>
+          <div class="btn-panier">
             <button class="btn-ajout-panier">Ajouter au panier</button>
           </div>
         </div>
       </div>
     </div>
+    <div class="col-md-3 col-xs-12 bottom">
+      <div class="card">
+        <div class="card-body">
+          <a href="#"><img src="assets/img/patek-card.jpg"></a>
+          <h5 class="card-title">5327R</h5>
+          <p class="card-text">Or rose fond verre saphir et fond plein cadran laqué ivoire avec bracelet en alligator
+          </p>
+          <p><strong>40 000,00 €</strong></p>
+          <button class="btn-ajout-panier">Ajouter au panier</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
-    <div class="row">
-      <div class="col-md-3 col-xs-12 bottom">
-        <div class="card">
-          <div class="card-body">
-            <a href="#"><img src="assets/img/rolex-card22.jpg"></a>
-            <h5 class="card-title">DATEJUST 41</h5>
-            <p class="card-text">Datejust 41 en Rolesor jaune est dotée d’un cadran couleur champagne et d’un bracelet Jubilee.</p>
-            <p><strong>12 450,00 €</strong></p>
-            <button class="btn-ajout-panier">Ajouter au panier</button>
-          </div>
+  <div class="row">
+    <div class="col-md-3 col-xs-12 bottom">
+      <div class="card">
+        <div class="card-body">
+          <a href="#"><img src="assets/img/rolex-card22.jpg"></a>
+          <h5 class="card-title">DATEJUST 41</h5>
+          <p class="card-text">Datejust 41 en Rolesor jaune est dotée d’un cadran couleur champagne et d’un bracelet
+            Jubilee.</p>
+          <p><strong>12 450,00 €</strong></p>
+          <button class="btn-ajout-panier">Ajouter au panier</button>
         </div>
       </div>
-      <div class="col-md-3 col-xs-12 bottom">
-        <div class="card">
-          <div class="card-body">
-            <a href="#"><img src="assets/img/rolex-card3.jpg"></a>
-            <h5 class="card-title">PEARLMASTER 39</h5>
-            <p class="card-text">Or gris 18 ct assortie d’un cadran pavé de diamants est dotée d’une lunette sertie de diamants</p>
-            <p><strong>235 000,00 €</strong></p>
-            <button class="btn-ajout-panier">Ajouter au panier</button>
-          </div>
+    </div>
+    <div class="col-md-3 col-xs-12 bottom">
+      <div class="card">
+        <div class="card-body">
+          <a href="#"><img src="assets/img/rolex-card3.jpg"></a>
+          <h5 class="card-title">PEARLMASTER 39</h5>
+          <p class="card-text">Or gris 18 ct assortie d’un cadran pavé de diamants est dotée d’une lunette sertie de
+            diamants</p>
+          <p><strong>235 000,00 €</strong></p>
+          <button class="btn-ajout-panier">Ajouter au panier</button>
         </div>
       </div>
-      <div class="col-md-3 col-xs-12 bottom">
-        <div class="card">
-          <div class="card-body">
-            <a href="#"><img src="assets/img/patek-card2.jpg"></a>
-            <h5 class="card-title">7140R</h5>
-            <p class="card-text">Or rose. Fond verre saphir et fond plein interchangeables. Cadran blanc opalin argenté, index appliques or. </p>
-            <p><strong>26 800,00 €</strong></p>
-            <div class="btn-panier">
-            <button class="btn-ajout-panier">Ajouter au panier</button>
-          </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-xs-12 bottom">
-        <div class="card">
-          <div class="card-body">
-            <a href="#"><img src="assets/img/RM-card1.jpg"></a>
-            <h5 class="card-title">RM 033</h5>
-            <p class="card-text">Or rose fond verre saphir et fond plein cadran laqué ivoire avec bracelet en alligator</p>
-            <p><strong>35 400,00 €</strong></p>
+    </div>
+    <div class="col-md-3 col-xs-12 bottom">
+      <div class="card">
+        <div class="card-body">
+          <a href="#"><img src="assets/img/patek-card2.jpg"></a>
+          <h5 class="card-title">7140R</h5>
+          <p class="card-text">Or rose. Fond verre saphir et fond plein interchangeables. Cadran blanc opalin argenté,
+            index appliques or. </p>
+          <p><strong>26 800,00 €</strong></p>
+          <div class="btn-panier">
             <button class="btn-ajout-panier">Ajouter au panier</button>
           </div>
         </div>
       </div>
     </div>
+    <div class="col-md-3 col-xs-12 bottom">
+      <div class="card">
+        <div class="card-body">
+          <a href="#"><img src="assets/img/RM-card1.jpg"></a>
+          <h5 class="card-title">RM 033</h5>
+          <p class="card-text">Or rose fond verre saphir et fond plein cadran laqué ivoire avec bracelet en alligator
+          </p>
+          <p><strong>35 400,00 €</strong></p>
+          <button class="btn-ajout-panier">Ajouter au panier</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
-    <div class="row">
-      <div class="col-md-3 col-xs-12 bottom">
-        <div class="card">
-          <div class="card-body">
-            <a href="#"><img src="assets/img/patek-card3.jpg"></a>
-            <h5 class="card-title">6102R</h5>
-            <p class="card-text">Disques en verre saphir noirs pour le fond du ciel et les phases de lune </p>
-            <p><strong>24 000,00 €</strong></p>
-            <button class="btn-ajout-panier">Ajouter au panier</button>
-          </div>
+  <div class="row">
+    <div class="col-md-3 col-xs-12 bottom">
+      <div class="card">
+        <div class="card-body">
+          <a href="#"><img src="assets/img/patek-card3.jpg"></a>
+          <h5 class="card-title">6102R</h5>
+          <p class="card-text">Disques en verre saphir noirs pour le fond du ciel et les phases de lune </p>
+          <p><strong>24 000,00 €</strong></p>
+          <button class="btn-ajout-panier">Ajouter au panier</button>
         </div>
       </div>
-      <div class="col-md-3 col-xs-12 bottom">
-        <div class="card">
-          <div class="card-body">
-            <a href="#"><img src="assets/img/RM-card3.jpg"></a>
-            <h5 class="card-title">DZ1932</h5>
-            <p class="card-text">Montre MS9 en denim à trois aiguilles<br><br></p>
-            <p><strong>179,00 €</strong></p>
-            <button class="btn-ajout-panier">Ajouter au panier</button>
-          </div>
+    </div>
+    <div class="col-md-3 col-xs-12 bottom">
+      <div class="card">
+        <div class="card-body">
+          <a href="#"><img src="assets/img/RM-card3.jpg"></a>
+          <h5 class="card-title">DZ1932</h5>
+          <p class="card-text">Montre MS9 en denim à trois aiguilles<br><br></p>
+          <p><strong>179,00 €</strong></p>
+          <button class="btn-ajout-panier">Ajouter au panier</button>
         </div>
       </div>
-      <div class="col-md-3 col-xs-12 bottom">
-        <div class="card">
-          <div class="card-body">
-            <a href="#"><img src="assets/img/RM-card2.jpg"></a>
-            <h5 class="card-title">cosmograph daytona</h5>
-            <p class="card-text">Or jaune 18 ct assortie d’un cadran couleur  noir et d’un bracelet
-              Oysterflex</p>
-            <p><strong>26 800,00 €</strong></p>
-            <div class="btn-panier">
-            <button class="btn-ajout-panier">Ajouter au panier</button>
-          </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-xs-12 bottom">
-        <div class="card">
-          <div class="card-body">
-            <a href="#"><img src="assets/img/patek-card.jpg"></a>
-            <h5 class="card-title">5327R</h5>
-            <p class="card-text">Or rose fond verre saphir et fond plein cadran laqué ivoire avec bracelet en alligator</p>
-            <p><strong>40 000,00 €</strong></p>
+    </div>
+    <div class="col-md-3 col-xs-12 bottom">
+      <div class="card">
+        <div class="card-body">
+          <a href="#"><img src="assets/img/RM-card2.jpg"></a>
+          <h5 class="card-title">cosmograph daytona</h5>
+          <p class="card-text">Or jaune 18 ct assortie d’un cadran couleur noir et d’un bracelet
+            Oysterflex</p>
+          <p><strong>26 800,00 €</strong></p>
+          <div class="btn-panier">
             <button class="btn-ajout-panier">Ajouter au panier</button>
           </div>
         </div>
       </div>
     </div>
+    <div class="col-md-3 col-xs-12 bottom">
+      <div class="card">
+        <div class="card-body">
+          <a href="#"><img src="assets/img/patek-card.jpg"></a>
+          <h5 class="card-title">5327R</h5>
+          <p class="card-text">Or rose fond verre saphir et fond plein cadran laqué ivoire avec bracelet en alligator
+          </p>
+          <p><strong>40 000,00 €</strong></p>
+          <button class="btn-ajout-panier">Ajouter au panier</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
   </div>

@@ -504,3 +504,11 @@ p {
 .inscription-yes a {
     color: #000000;
 }
+
+.btn-modal {
+    background: none;
+    border: none;
+}
+.modal-body {
+    color: #000000;
+}
