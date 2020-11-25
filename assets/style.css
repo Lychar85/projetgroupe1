@@ -275,6 +275,7 @@ footer ul a:hover{
 
 /* CSS DIRECTORY 
     =GLOBAL
+    =LUXURY WATCHS
     =DIESEL
     =RICHARD MILLE
     =PATEK
@@ -297,10 +298,18 @@ p {
     font-size: 20px;
     font-weight: 600;
 }
+/* ========== LUXURY WATCHS ========== */
+.luxury {
+    height: 100vh;
+    background-image: url(../assets/img/luxury-watchs-index.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 /* ========== DIESEL ========== */
 .diesel {
     height: 100vh;
-    background-image: url(../assets/img/photo-diesel-index.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.9)), url(../assets/img/photo-diesel-index.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
