@@ -293,6 +293,10 @@ footer i {
         .title-watchs {
             font-size: 70%;
         }
+        .navbar {
+            display: flex;
+            justify-content: center;
+        }
 }
 
 
