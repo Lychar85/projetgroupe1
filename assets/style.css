@@ -287,9 +287,6 @@ footer i {
         .collection h1 {
             text-align: center;
         }
-        .color h1 {
-            color: #000000;
-        }
         .title-watchs {
             font-size: 70%;
         }
@@ -351,6 +348,10 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+.luxury h1 {
+    border: 3px solid;
+    background: #0009;
 }
 /* ========== DIESEL ========== */
 .diesel {
