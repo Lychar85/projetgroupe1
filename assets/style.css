@@ -187,6 +187,37 @@ h4{
     color: #000000;
 }
 
+.produit-collect img{
+    transition: 500ms;
+}
+
+.produit-collect img:hover{
+    transition: 500ms;
+    transform: scale(1.1);
+}
+
+.filtre{
+    background: none;
+    color: white;
+    font-size: 150%;
+    margin-bottom: 50px;
+    border-top: 1px solid white;
+    width: 100%;
+}
+
+.table td{
+    border: none;
+}
+
+select:hover{
+    background-color: blanchedalmond;
+}
+
+option:hover{
+   background-color: blanchedalmond;
+    
+}
+
 /*PANIER
 =================================================*/
 #panier{
@@ -210,6 +241,7 @@ h4{
 footer{
     background: rgb(29, 29, 29);
     color: white;
+    bottom: 0;
 }
 
 footer h5{
